@@ -16,9 +16,9 @@ public class SlidingPresentationManager: NSObject {
     }
     
     /// The direction of the transition, defaults to `.fromBottom`.
-    var direction: SlideDirection = .fromBottom
+    public var direction: SlideDirection = .fromBottom
 
-    init(direction: SlideDirection = .fromBottom) {
+    public init(direction: SlideDirection = .fromBottom) {
         self.direction = direction
     }
 }

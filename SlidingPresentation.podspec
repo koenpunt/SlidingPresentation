@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name         = 'SlidingPresentation'
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.summary      = 'Simple presentation controller for "slide in" view controller presentation.'
   spec.description  = <<-DESC
     Simple presentation controller for "slide in" view controller presentation.
-    
+
     The `preferredContentSize` of the presented view controller controls the size of the presented view controller.
 
     Updates to `preferredContentSize` after the view controller is presented are also reflected in the UI.
